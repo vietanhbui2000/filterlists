@@ -5,9 +5,9 @@ Personal DNS domain lists, DNS rewrites, and browser content-blocking rules.
 | File | Purpose | Format |
 | --- | --- | --- |
 | `adblock.txt` | Block browser requests and unwanted page content | Adblock-style filters |
-| `domains2allow.txt` | Allow domains | Lowercase domains, one per line |
-| `domains2block.txt` | Block domains | Lowercase domains, one per line |
-| `domains2rewrite.txt` | Rewrite domains | IP address + lowercase domains, one per line |
+| `domains/allowlist.txt` | Allow domains | Lowercase domains, one per line |
+| `domains/blocklist.txt` | Block domains | Lowercase domains, one per line |
+| `domains/rewritelist.txt` | Rewrite domains | IP address + lowercase domains, one per line |
 
 ## Adblocker list
 
