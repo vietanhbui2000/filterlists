@@ -1,0 +1,10 @@
+# -----------------------------------------------------------------------------
+# Title: Andy's personal filterlist -- domains to rewrite
+# Description: My personal filterlist.
+# Homepage: https://github.com/vietanhbui2000/filterlists
+# Version: 20261121204439
+# -----------------------------------------------------------------------------
+
+# Unblock Medium
+162.159.152.4 medium.com
+162.159.153.4 medium.com

@@ -1,0 +1,31 @@
+[Adblock Plus 2.0]
+! Title: Andy's personal filterlist
+! Description: My personal filterlist.
+! Homepage: https://github.com/vietanhbui2000/filterlists
+! Version: 20261121201419
+! Expires: 1 day
+! Syntax: AdBlock
+
+! Google Analytics: fix the account selector
+@@||analytics.google.com^$domain=analytics.google.com
+@@||analytics-alv.google.com^$domain=analytics.google.com
+@@||analyticssuitefrontend-pa.clients6.google.com^$domain=analytics.google.com|clients6.google.com
+
+! Cloudflare: disable cosmetic filtering on the dashboard
+@@||dash.cloudflare.com^$elemhide
+
+! Google Drive: remove "Get more storage" button
+drive.google.com##.Ya-I-ph.jWOVfd-ml-d.AeBiU-kSE8rc-FoKg4d-nh-YoZ4jf.AeBiU-d-Qu-dgl2Hf.AeBiU-d
+
+! Zalo: remove system banner (which usually just promotes the Zalo PC app), zCloud button on the sidebar
+chat.zalo.me##.--main-window.--web.system-banner__container
+chat.zalo.me##.nav__tabs__bottom > div > .rel.flx-center.flx-al-c.flx-col.flx.leftbar-tab.clickable
+
+! Google Gemini: remove "Get app" button
+gemini.google.com##.ng-star-inserted.top-bar-button
+
+! mymind: remove upgrade button
+access.mymind.com##.button.upgrade-button
+
+! Figma: remove upgrade button
+www.figma.com##.button__fill__teOYe.button__lg__oiEan.button__primary__tP7NU.button__button__-U-QJ._19xx72g0

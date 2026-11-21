@@ -1,0 +1,23 @@
+# -----------------------------------------------------------------------------
+# Title: Andy's personal filterlist -- domains to allow
+# Description: My personal filterlist.
+# Homepage: https://github.com/vietanhbui2000/filterlists
+# Version: 20261121204349
+# -----------------------------------------------------------------------------
+
+# Unblock this Google Ads domain so that sites stop nagging to disable ad block
+# (uBlock Origin and any other ad block extension with cosmetic filtering
+# can still block this and remove the nagging popup)
+pagead2.googlesyndication.com
+
+# Unblock some domains from Google to fix the account selector on Google Analytics
+analytics.google.com
+analytics-alv.google.com
+analyticssuitefrontend-pa.clients6.google.com
+
+# Unblock this YouTube domain to save watching history
+s.youtube.com
+
+# Unblock streaming/media hosting sites
+streamtape.to
+doodstream.com
