@@ -21,11 +21,11 @@ Allow and block files contain domains only (`example.com`). The rewrite file use
 
 Subscribe using raw file URLs where supported; otherwise import the entries. Pi-hole supports subscribed allowlists from v6. Other providers may require format conversion. Allow/block precedence and subdomain matching vary by consumer.
 
-For CGPS, set each raw file URL as a repository variable:
+For CGPS, set each raw file URL (or paste the file's content) as a repository variable:
 
-- `ALLOWLIST_URL`: becomes the `Allowlist (manual)` policy. It sits above CGPS's block policies, so it also unblocks domains on the filter lists, including a subdomain of a blocked parent.
-- `BLOCKLIST_URL`: becomes the `Blocklist (manual)` policy.
-- `REWRITE_URL`: each domain becomes a `Rewrite: <domain>` policy that answers with the listed IPs.
+- `ALLOWED_DOMAINS`: `domains/allowlist.txt` becomes the `CGPS Allowed Domains` policy. It sits above CGPS's block policies, so it also unblocks domains on the filter lists, including a subdomain of a blocked parent.
+- `BLOCKED_DOMAINS`: `domains/blocklist.txt` becomes the `CGPS Blocked Domains` policy.
+- `REWRITTEN_DOMAINS`: each domain in `domains/rewritelist.txt` becomes a `CGPS Rewrite: <domain>` policy that answers with the listed IPs.
 
 Allow and block entries also match subdomains; rewrites match the exact hostname only. These variables add policies alongside CGPS's filter lists; they don't replace its default sources (`ALLOWLIST_URLS` and `BLOCKLIST_URLS`).
 
