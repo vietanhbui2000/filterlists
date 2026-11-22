@@ -2,7 +2,7 @@
 ! Title: Andy's personal filterlist
 ! Description: My personal filterlist.
 ! Homepage: https://github.com/vietanhbui2000/filterlists
-! Version: 20261122223046
+! Version: 20261122223931
 ! Expires: 1 day
 ! Syntax: AdBlock
 
@@ -27,6 +27,6 @@ gemini.google.com##.ng-star-inserted.top-bar-button
 ! mymind: remove upgrade button
 access.mymind.com##.button.upgrade-button
 
-! Figma: remove upgrade button
-www.figma.com##.button__fill__teOYe.button__lg__oiEan.button__primary__tP7NU.button__button__-U-QJ._19xx72g0
+! Figma: remove upgrade button, Starter Hub section
 www.figma.com##.wjyoh8m.wjyoh8k.wjyoh8p.wjyoh8t._14wijgr9.wjyoh8i._19xx72g0
+www.figma.com##.x87ps6o.x1bat2d6.xagx3e6.xkjsfwp.xdt5ytf.x78zum5
