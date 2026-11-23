@@ -2,7 +2,7 @@
 # Title: Andy's personal filterlist -- domains to allow
 # Description: My personal filterlist.
 # Homepage: https://github.com/vietanhbui2000/filterlists
-# Version: 20261121204349
+# Version: 20261123162900
 # -----------------------------------------------------------------------------
 
 # Unblock this Google Ads domain so that sites stop nagging to disable ad block
@@ -17,6 +17,9 @@ analyticssuitefrontend-pa.clients6.google.com
 
 # Unblock this YouTube domain to save watching history
 s.youtube.com
+
+# Unblock this Facebook domain to fix the app not working properly
+graph.facebook.com
 
 # Unblock streaming/media hosting sites
 streamtape.to
