@@ -2,7 +2,7 @@
 # Title: Andy's personal filterlist -- domains to rewrite
 # Description: My personal filterlist.
 # Homepage: https://github.com/vietanhbui2000/filterlists
-# Version: 20261121222548
+# Version: 20261125052434
 # -----------------------------------------------------------------------------
 
 # Unblock Medium
@@ -11,3 +11,6 @@
 
 # Unblock Linkedin
 130.211.32.14 linkedin.com
+
+# Unblock GSMArena
+148.251.96.211 gsmarena.com
